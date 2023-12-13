@@ -19,8 +19,8 @@ Based on the queries and analysis I made in the jupyter notebook, I designed a *
         f"<a href='/api/v1.0/tobs'>/api/v1.0/tobs</a><br/>"
         f" Dynamic Route: /api/v1.0/&lt;start&gt;<br/>"
         f"Dynamic Route: /api/v1.0/&lt;start&gt;/&lt;end&gt;<br/>"
-- For each route, I defined a separate function that would run the respective code blocks, which would eventually be browsable when a user hits the respective links. 
-- I also made the last two links that would open the browsers with the JSONified list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
+- For each route, I defined a separate function that would run the respective code blocks, which would eventually open a browser when a user hits the respective links. 
+- I also made the last two links dynamic that would take the user input for the start date and end date within the dataset and would open the browsers with the JSONified list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
 - I used the Flask JSONify function to convert the API data to a valid JSON response object.
 
 During this assignment, I received support from my resourceful boot camp tutor and some LAs, which helped me complete my assignment.
